@@ -6,6 +6,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -22,6 +24,14 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
+### Screenshot
+
+![](./design/desktop-design-completed.jpg)
+
+
+### Links
+
+- Solution URL: [here](https://ghostst94.github.io/tip-calculator-app/)
 
 
 ### Built with
