@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <main>
+    <h1>SPLI<br>TTER</h1>
+    <div class="container">
+      <div class="container_left">
+        <div class="bill">
+          <span>Bill</span>
+          <div>
+            <img src="images/icon-dollar.svg">
+            <input type="text" class="in inp1" >
+          </div>
+          <span class="error_span">Enter a valid number</span>
+        </div>
+        <div class="tip_container">
+          <span>Select Tip %</span>
+          <div class="grid-container">
+            <div>5%</div>
+            <div>10%</div>
+            <div>15%</div>  
+            <div>25%</div>
+            <div>50%</div>
+            <div class="A">
+              <span>Custom</span>
+              <input type="text" class="custom dis">
+            </div>
+          </div>
+        </div>
+        <div class="ppl">
+          <span>Number of People</span>
+          <div>
+            <img src="images/icon-person.svg">
+            <input type="text" class="in inp2">
+          </div>
+          <span class="error_span">Enter a valid number</span>
+        </div>
+      </div>
+
+      <div class="container_right">
+        <div class="grid">
+          <div>
+            <p>Tip Amount<br> <span class="pers">/ Person</span></p>
+          </div>
+          <div class="price tip_amount">$00.00</div>
+        </div>
+        <div class="grid">
+          <div>
+            <p>Total <br> <span class="pers"> / Person</span></p>
+          </div>
+          <div class="price total">$00.00</div>
+        </div>
+        <div class="reset">
+          <input type="button" onclick="reset()" value="RESET">
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Reda Bn</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
